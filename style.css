@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #555;
+}
+
+body {
+    width: 100%;
+}
+
+img {
+/*    【注目！】ちゃつみさんに教えてもらった！　写真が真ん中にならなかった原因*/
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.top-title {
+    font: 36px;
+    text-align: center;
+    color: #555;
+    font-weight: 200%;
+    background-color: #ffd700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 100px 200px 40px 200px;
+    transition: 0.6s;
+}
+
+
+.top-title:hover{
+    background-color: #ff8c00;
+}
+
+h2 {
+    color: #e63c35;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    color: #ffd700;
+    font-size: 25px;
+}
+
+#contents2 .center-box p{
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 200%;
+    letter-spacing: 3px;
+}
+
+#contents3 .center-box p{
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 200%;
+    letter-spacing: 3px;
+}
+
+#main a.fbbutton {
+    font-size: 20px;
+    color: #ffd700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 7px 25px;
+    margin-left: 105px;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.fbbutton .edge {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none repeat scroll 0 0 #87cefa;
+    /*    滑らかに*/
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.fbbutton .edge1 {
+    width: 1px;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    transition-delay: 0.2s;
+}
+
+.fbbutton .edge2 {
+    height: 1px;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.fbbutton .edge3 {
+    width: 1px;
+    left: auto;
+    right: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    transition-delay: 0.2s;
+}
+
+.fbbutton .edge4 {
+    height: 1px;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+a.fbbutton:hover .edge {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#main a.inbutton {
+    font-size: 20px;
+    color: #ffd700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 7px 25px;
+    margin-left: 102px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.inbutton .edge {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none repeat scroll 0 0 #ff00ff;
+    /*    滑らかに*/
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.inbutton .edge1 {
+    width: 1px;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    transition-delay: 0.2s;
+}
+
+.inbutton .edge2 {
+    height: 1px;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.inbutton .edge3 {
+    width: 1px;
+    left: auto;
+    right: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    transition-delay: 0.2s;
+}
+
+.inbutton .edge4 {
+    height: 1px;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+a.inbutton:hover .edge {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/*スタイリング*/
+#main a.fbbutton:active {
+    background-color: #3B5998;
+    color: #ffd700;
+}
+
+.content {
+    border-bottom: 1px dotted #ffd700;
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+.center-box {
+    width: 380px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.left-box {
+    float: left;
+    width: 288px;
+    margin-right: 18px;
+
+}
+
+.main-visual {
+    width: 100%;
+    height: 500px;
+    background: #555 url(lemon3.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding-top: 200px;
+}
+
+
+#main {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+    /*    後で消す*/
+    background: #ffd700;
+    padding: 1px;
+    float: left;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    background: #ffd700;
+}
+
+.content:last-child {
+    border-bottom: 0;
+}
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background: #555;
+    padding: 6px 0px;
+    position: fixed;
+    z-index: 2;
+}
+
+#header h1 {
+    float: left;
+    color: #ffd700;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-left: 15px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav li {
+    /*丸ポチを消してる*/
+    list-style-type: none;
+    /*左に寄せて一列表示になるようにしている*/
+    float: left;
+    margin-top: 2px;
+}
+
+nav a {
+    font-size: 25px;
+    display: block;
+    /*下線を消してる*/
+    text-decoration: none;
+    color: #ffd700;
+    margin: 5px 30px 0px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    /*    border-bottom: 1px solid #f9f9f9;*/
+    font-size: 35px;
+    color: #ff8c00;
+}
+
+p.new {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #e63c35;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+
+.animation1 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 180px;
+    /*    float: left;*/
+}
+
+.animation1 .caption {
+    position: absolute;
+    padding: 40px;
+    margin-top: 22px;
+    margin-left: -35px;
+    background: #fff;
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+
+    opacity: 0;
+
+    background-color: rgba(255, 215, 0, 0.85);
+}
+
+.animation1 .caption h2 {
+    padding-top: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: #555;
+    font-size: 40px;
+}
+
+.animation1 .caption h3 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: #555;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.animation1 .caption h4 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: #555;
+    font-size: 20px;
+}
+
+.animation1:hover .caption {
+    -webkit-transform: translate(50px, -15px);
+    -ms-transform: translate(50px, -15px);
+    -o-transform: translate(50px, -15px);
+    transform: translate(50px, -15px);
+    
+    background: rgba(255, 140, 0, 0.7);
+
+    opacity: 1;
+}
+
+
+#contents2 .center-box{
+    padding-bottom: 60px;
+}
+
+.animation2 {
+    position: relative;
+    width: 300px;
+    float: left;
+
+    /*奥行きの深さを設定*/
+    -webkit-perspective: 500;
+    -moz-perspective: 500;
+    -ms-perspective: 500;
+    perspective: 500;
+
+    /*奥行きが始まる位置を設定*/
+    -webkit-perspective-origin: left;
+    -moz-perspective-origin: left;
+    -ms-perspective-origin: left;
+    perspective-origin: left;
+}
+
+#contents2 .animation2 .caption {
+    position: absolute;
+    padding: 20px;
+    background: #e63c35;
+    height: 185px;
+    width: 100px;
+
+    /*透明にする*/
+    opacity: 0;
+
+    /*y軸を中心に-90度傾ける*/
+    -webkit-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    -o-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+
+    /*なめらかに動かす*/
+    -webkit-transition: transform 0.4s, opacity 0.1s 0.3s;
+    -o-transition: transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+
+    /*回転軸を左端に設定*/
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+#contents2 .animation2 .caption h2 {
+    color: white;
+    font-size: 13px;
+}
+
+#contents2 .animation2 .caption h3 {
+    color: white;
+    font-size: 15px;
+}
+
+#contents2 .animation2:hover .caption {
+    opacity: 1;
+
+    /*y軸を0度の位置に傾ける*/
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+
+    /*なめらかに動かす*/
+    -webkit-transition: transform 0.4s, opacity 0.1s;
+    -o-transition: transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+#contents2 .animation2:hover img {
+    /*    画像を移動させる*/
+    -webkit-transform: translateX(25%);
+    -ms-transform: translateX(25%);
+    -o-transform: translateX(25%);
+    transform: translateX(25%);
+
+    /*    滑らかに*/
+    -webkit-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transition: transform 0.4s;
+
+}
+
+#contents1 .center-box p{
+    line-height: 160%;
+    letter-spacing: 3px;
+}
+
+#contents2 .center-box .utsb{
+    transition: 0.3s;
+    text-decoration: none;
+    color: #ffd700;
+}
+
+#contents2 .center-box .utsb:hover{
+    color: #fff;
+    font-size: 140%;
+}
