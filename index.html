@@ -7,6 +7,13 @@
     <title>MyWebSite</title>
     <link href="https://fonts.googleapis.com/css?family=Acme|Rajdhani&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!--fabiconの設定-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="りえしの自己紹介サイトです">
+    <meta property="og:image" content="/Users/riefujimoto/LiT\!/L4S\(WebD\)/MyWebSite_Rie/logo.png">
+    <!--JQueryのプラグイン-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.bgswitcher.js"></script>
 </head>
 
 <body>
@@ -24,10 +31,8 @@
     </div>
     <div class="main-visual"></div>
     <div class="container">
+
         <div id="main">
-
-
-            
 
             <div class="content" id="contents1">
                 <a name="jump_profile"></a>
@@ -88,9 +93,6 @@
                 </div>
 
 
-
-
-
                 <div class="animation1">
                     <div class="caption">
                         <h2>2019, 11, 25</h2>
@@ -116,8 +118,6 @@
             </div>
 
 
-
-
             <div class="content" id="contents3">
                 <a name="jump_pet"></a>
                 <h1 class="top-title">Pet</h1>
@@ -137,17 +137,26 @@
                         肉球は枝豆の香りがします
                     </p>
                 </div>
-                
-
             </div>
-
-
-
-
-
 
         </div>
     </div>
+
+    <!--bgSwitcherの読み込み-->
+    <script>
+        jQuery(function($) {
+            $('.main-visual').bgSwitcher({
+                images: ['firstView.png', 'lemon1.jpg', 'lemon2.jpg'],
+                interval: 3000,
+                loop: true,
+                shuffle: true,
+                effect: "fade", // fade,blind,clip,slide,drop,hide
+                duration: 500,
+                easing: "swing" // linear,swing
+            });
+        });
+
+    </script>
 
 </body>
 

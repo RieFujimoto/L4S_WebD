@@ -31,9 +31,11 @@ img {
 }
 
 
+/*
 .top-title:hover{
     background-color: #ff8c00;
 }
+*/
 
 h2 {
     color: #e63c35;
@@ -67,7 +69,7 @@ p {
     letter-spacing: 2px;
     padding: 7px 25px;
     margin-left: 105px;
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -213,7 +215,7 @@ a.inbutton:hover .edge {
 
 .content {
     border-bottom: 1px dotted #ffd700;
-    padding: 16px 0;
+    padding: 200px 0px;
     overflow: hidden;
 }
 
@@ -232,18 +234,17 @@ a.inbutton:hover .edge {
 
 .main-visual {
     width: 100%;
-    height: 500px;
-    background: #555 url(lemon3.jpg) 0 0 no-repeat;
+    height: 620px;
+    background: #555 url(firstView.png) 0 0 no-repeat;
     background-size: cover;
     margin-bottom: 10px;
     padding-top: 200px;
 }
 
-
 #main {
     width: 700px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 80px;
     overflow: hidden;
     /*    後で消す*/
     background: #ffd700;
@@ -258,7 +259,7 @@ a.inbutton:hover .edge {
 
 body {
     width: 100%;
-    background: #ffd700;
+/*    background: #ffd700;*/
 }
 
 .content:last-child {
